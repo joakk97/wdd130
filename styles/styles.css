@@ -1,6 +1,6 @@
 * {
-    margin: 1;
-    padding: 2;
+    margin: 1rem;
+    padding: 1;
     box-sizing: border-box;
 }
 
@@ -9,10 +9,10 @@ nav {
     padding: 15px;
 }
 
-nav a {
+nav img {
     margin: 10px;
     padding: 5px;
-    display: block;
+
 }
 
 h1 {
@@ -20,22 +20,18 @@ h1 {
     padding: 1.5rem;
 }
 
-main {
-    max-width: 550px;
-}
-
 p {
-    margin: auto;
+    margin: 100;
     padding: 1rem
 }
 
 main img {
-    width: 200px;
+    width: 20px;
     height: auto;
     border: 1px solid rgb(197, 200, 202);
     padding: 1px;
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 aside {
