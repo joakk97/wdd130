@@ -27,24 +27,19 @@ body {
 header,
 .grid main,
 footer {
-    width: 840px;
+    width: 1000px;
     margin: 2 auto;
 }
 
-.grid {
-    display: grid;
-    align-items: center;
-}
-
 main {
-    grid-row: 2/3;
+    grid-row: 1/3;
     margin: 1rem;
 }
 
 header {
     display: grid;
     grid-template-columns: 150px 1fr 1fr;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -57,10 +52,11 @@ nav ul {
 }
 
 nav {
-    width: 840px;
+    width: 1000px;
     padding: auto;
     background-color: #90e0ef;
     font-size: 19px;
+    text-align: center;
 
 }
 
@@ -75,7 +71,7 @@ nav a {
 }
 
 .hero img {
-    width: 100px;
+    width: 150px;
     height: auto;
     float: right;
 
@@ -83,7 +79,7 @@ nav a {
 
 .hero article img {
 
-    width: 100px;
+    width: 150px;
     height: auto;
 }
 
@@ -97,7 +93,7 @@ h2 {
 h1 {
     position: relative;
     top: 1;
-    width: 840px;
+    width: auto;
     padding: 1px;
     text-align: center;
     opacity: 0.7;
@@ -108,6 +104,30 @@ h1 {
 
 h2 {
     text-align: center;
+
+}
+
+figure {
+    border: thin solid black;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    width: 840px;
+    margin: auto;
+
+}
+
+img {
+    width: 220px;
+    height: auto;
+}
+
+figcaption {
+    background-color: #000000;
+    color: white;
+    font: italic smaller sans-serif;
+    text-align: center;
+    padding: 3px;
 }
 
 ul {
@@ -132,7 +152,7 @@ section img {
 
 nav .socialmedia {
     margin: auto;
-    width: 15px;
+    width: 20px;
 }
 
 .hero p {
